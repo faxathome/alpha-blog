@@ -1,4 +1,118 @@
 // here You'll include changes to the bootstrap default css
 
+$navbar-default-bg: #c1a04d;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #6F5209;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  //background-image: url("new_cover.png");
+  background-image: asset-url('new_cover.png');
+  background-repeat: repeat;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #6F5209;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.5em;
+  color: #FFF;
+  background-color: #c1a04d;
+  border-style: none;
+}
+.btn-xlarge:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #9C7B27;
+  border-style: none;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #9C7B27;
+  color: #6F5209;
+  // background-color: #9C7B27
+}
+
+footer a {
+  color: #9C7B27;
+}
+
+footer a:hover {
+  color: #9C7B27;
+  text-decoration: none;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+// .navbar-default .navbar-brand:hover {
+//   color: white;
+//   opacity: 0.75;
+// }
+// .navbar-default .navbar-nav > li > a:hover {
+//   color: white;
+//   opacity: 0.75;
+// }
+
+
+// .btn-primary,
+// .btn-primary:visited {
+//     background-color: #c1a04d;
+//     border-style: none;
+// }
+
+// .btn-primary:hover, 
+// .btn-primary:focus {
+//     background-color: #6F5209;
+//     border-style: none;
+// }
+
+// .btn-primary:active {
+//     background-color: #FFF;
+//     border-style: #FFF;
+// }
