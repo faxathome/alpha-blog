@@ -9,7 +9,8 @@ App Name:
 
 Features:
 
-* tba
+* Simple things
+* Other simple things
 
 * ...
 
