@@ -1,6 +1,6 @@
 # README
 
-This is the repository for the first Rails app of the 2018 Complete Ruby on Rails Developer Course
+This is the repository for the first Rails app of the 2018 Complete Ruby on Rails Developer Course. Made by Andrés
 
 App Name:
 
@@ -15,7 +15,7 @@ Features:
 * ...
 
 
-Color Codes:
+Color Codes (I know they are Ugly, but wanted to do something different):
 
 
 FFEBB8
