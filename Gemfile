@@ -7,6 +7,8 @@ ruby '2.4.1'
 gem 'rails', '~> 5.2.0'
 
 gem 'bcrypt', '~> 3.1.7'
+gem 'will_paginate', '~> 3.1.0'
+gem 'bootstrap-will_paginate'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -40,7 +42,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
-  
+
   # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -65,7 +67,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg'  
+  gem 'pg'
 end
 
 
