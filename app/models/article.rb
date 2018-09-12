@@ -6,4 +6,8 @@ class Article < ApplicationRecord
   validates :description, presence: true, length: {minimum: 10, maximum: 300}
   validates :user_id, presence: true
 
+  def author
+    user.username
+  end
+
 end
