@@ -5,6 +5,9 @@ module ApplicationHelper
     gravatar_url = "http://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
     image_tag(gravatar_url, alt: user.username, class: "img-circle")
   end
+
+  def prefered_color
+    return current_user.color if (current_user && current_user.color.present?)
+    '#ece9e9'
+  end
 end
-
-
